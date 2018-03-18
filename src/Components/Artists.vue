@@ -15,7 +15,11 @@ export default {
 
 <style lang="stylus" scoped>
     li.artist
-        display block
-        margin 10px 0
+        display inline-block
+        margin 10px 2px
+        padding 10px
+        border solid 1px #42b983
+        background-color #42b983
+        border-radius 3px 
 </style>
 
