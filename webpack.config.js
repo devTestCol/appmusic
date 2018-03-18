@@ -19,7 +19,7 @@ module.exports = {
       },      {
         test: /\.vue$/,
         loader: 'vue-loader',
-        options: {
+        options: { 
           loaders: {
           }
           // other vue-loader options go here
@@ -34,7 +34,7 @@ module.exports = {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]?[hash]'
+          name: '[name].[ext]'
         }
       }
     ]
